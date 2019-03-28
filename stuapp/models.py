@@ -40,3 +40,6 @@ class student(models.Model):
 
 class one(models.Model):
     name = models.CharField(max_length=30)
+
+class two(models.Model):
+    name = models.CharField(max_length=30)
