@@ -37,3 +37,6 @@ class Movie(models.Model):
 class student(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=30)
+
+class one(models.Model):
+    name = models.CharField(max_length=30)
